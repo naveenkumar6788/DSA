@@ -5,7 +5,12 @@ public class armstrong{
         Scanner java=new Scanner(System.in);
         int n=java.nextInt();
         System.out.println(arms(n));
-
+         // loop 
+        for(int i=100;i<1000;i++){
+            if(arms(i)){
+                System.out.print(i+ " ");
+            }
+        }
     }
     static boolean arms(int n){
         int temp=n;
