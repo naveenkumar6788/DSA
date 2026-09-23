@@ -1,6 +1,4 @@
-
 import java.util.Scanner;
-
 public class transpose {
     public static void main(String[] args) {
         Scanner java=new Scanner(System.in);
